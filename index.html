@@ -7,11 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cash Register App</title>
     <link rel="stylesheet" type="text/css" href="/styles.css">
-    <script type="text/javascript" src="/index.js"></script>
 </head>
 
 <body>
+    <div class="container">
+        <h1>Cash Register</h1>
+        <p class="desc">
+            enter the bill amount and the cash given values and it will show the notes to be changed
+        </p>
 
+        <label for="bill-amount">Bill Amount : </label>
+
+        <input type="number" name="bill-amount" id="bill-amount" value="">
+
+        <label for="cash-given">Cash Given : </label>
+
+        <input type="number" name="cash-given" id="cash-given">
+        <button type="submit" id="submitbtn">submit</button>
+
+        <label for="return-change">Return Change : </label>
+
+        <table>
+            <tr>
+                <th>note types</th>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <th>count</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </div>
 </body>
+<script type="text/javascript " src="/index.js "></script>
 
 </html>
