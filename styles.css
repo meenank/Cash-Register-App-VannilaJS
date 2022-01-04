@@ -5,16 +5,48 @@ body {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    max-width: 40%;
+    border: 1px solid goldenrod;
+    width: 40%;
     margin: auto;
 }
 
-table td,
-th,
-tr {
-    border: 1px solid blue;
-    padding: 1rem;
+h1,
+p {
     text-align: center;
+}
+
+.label-styling {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#bill-amount,
+#cash-given {
+    display: inline-block;
+    width: 45%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+button {
+    width: 5rem;
+    margin: 3rem;
+    margin-left: 17rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+th,
+tr,
+td {
+    border: 1px solid goldenrod;
+    padding: 1.4rem;
+    /* margin: auto; */
+    text-align: center;
+}
+
+#lastlabel {
+    margin: 0rem 0rem 8rem 5rem;
 }

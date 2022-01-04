@@ -13,31 +13,32 @@
     <div class="container">
         <h1>Cash Register</h1>
         <p class="desc">
-            enter the bill amount and the cash given values and it will show the notes to be changed
+            enter the bill amount and the cash given values and it will show the notes to be given as change/return
         </p>
+        <hr>
+        <label class="label-styling" for="bill-amount">Bill Amount : </label>
 
-        <label for="bill-amount">Bill Amount : </label>
+        <input class="input-styling" type="number" name="bill-amount" id="bill-amount" value="">
 
-        <input type="number" name="bill-amount" id="bill-amount" value="">
+        <label class="label-styling" for="cash-given">Cash Given : </label>
 
-        <label for="cash-given">Cash Given : </label>
-
-        <input type="number" name="cash-given" id="cash-given">
+        <input class="input-styling" type="number" name="cash-given" id="cash-given">
 
         <button type="submit" id="submitbtn">submit</button>
-        <p id="err"> </p>
-        <label for="return-change">Return Change : </label>
+        <hr>
+        <p id="err"></p>
+        <label id="lastlabel" for="return-change">Return Change : </label>
 
         <table>
             <tr>
                 <th>Count</th>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
+                <td class="changeDis"></td>
+                <td class="changeDis"></td>
+                <td class="changeDis"></td>
+                <td class="changeDis"></td>
+                <td class="changeDis"></td>
+                <td class="changeDis"></td>
+                <td class="changeDis"></td>
             </tr>
             <tr>
                 <th>denominations</th>
